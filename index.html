@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pig game</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div id="wrapp">
+      <button id="startBtn" class="btn btn-lg btn-primary">Počni</button>
+    <div class="container">
+      <div class="circle">1</div>
+      <div class="scoreboard">
+        <h1>Ukupan rezultat  <span id="player1Score">0</span> : <span id="player2Score">0</span></h1>
+      </div>
+      <div class="player1">
+          <h2 id="player1Name">Player 1</h2>
+          <h3 id="player1Current">0</h3>
+          <button id="player1Btn" class="btn btn-lg btn-success">Baci kockicu</button>
+
+      </div>
+      <div class="player2">
+          <h2 id="player2Name">Player 2</h2>
+          <h3 id="player2Current">0</h3>
+          <button id="player2Btn" class="btn btn-lg btn-success">Baci kockicu</button>
+      </div>
+    </div>
+    <button id="startAgain" class="btn btn-lg btn-warning">Počni ponovo</button>
+  </div>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>

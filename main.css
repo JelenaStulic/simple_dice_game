@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  border: none;
+  background: transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+[disabled] {
+  cursor: no-drop;
+  background-color: #f0ad4e !important;
+}
+[disabled]:hover {
+  background-color: #f0ad4e !important;
+}
+
+
+.btn-primary {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-primary:hover {
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+.btn-warning {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.btn-warning:hover {
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+
+.btn-success {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-success:hover {
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+#wrapp{
+  width: 50%;
+  height: 500px;
+  border: 1px solid #ccc;
+  margin: 50px auto;
+  position: relative;
+  border-radius: 5px;
+}
+
+#startAgain {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: none;
+}
+
+.scoreboard {
+  height: 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.player1, .player2 {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 50%;
+  height: 449px;
+  float: left;
+}
+
+.player1 {
+  border-right: 2px solid #eee;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#player1Btn,#player2Btn {
+  display: table;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 70px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.container {
+  display: none;
+}
+
+#startBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #c9303c;
+  color: black;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 26px;
+}
